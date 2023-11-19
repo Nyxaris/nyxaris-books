@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Nyxaris Books';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Новая книга - Звёздные врата';
+    : 'Захватывающие истории';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'Все права защищены.';
