@@ -4,10 +4,10 @@ export const getGlobalData = () => {
     : 'Nyxaris';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Nyxaris Books';
+    : 'Рассказы и книги';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'Все права защищены.';
 
   return {
     name,
