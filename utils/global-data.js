@@ -1,6 +1,6 @@
 export const getGlobalData = () => {
-  const siteName = process.env.SITE_NAME
-    ? decodeURI(process.env.SITE_NAME)
+  const stName = process.env.ST_NAME
+    ? decodeURI(process.env.ST_NAME)
     : 'Приключения Эдмунда';
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
@@ -13,7 +13,7 @@ export const getGlobalData = () => {
     : 'Все права защищены.';
 
   return {
-    siteName,
+    stName,
     name,
     blogTitle,
     footerText,
